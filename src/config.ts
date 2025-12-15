@@ -55,30 +55,30 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "xxKawa",
-	bio: "Permanent Guest of Psychiatry Department / Full Stack Developer",
+	bio: `Permanent Guest of Psychiatry Department / Full Stack Developer`,
 	links: [
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
+//		{
+//			name: "Twitter",
+//			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+//			// You will need to install the corresponding icon set if it's not already included
+//			// `pnpm add @iconify-json/<icon-set-name>`
+//			url: "https://twitter.com",
+//		},
+//		{
+//			name: "Steam",
+//			icon: "fa6-brands:steam",
+//			url: "https://store.steampowered.com",
+//		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/xxKawa",
 		},
 	],
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
